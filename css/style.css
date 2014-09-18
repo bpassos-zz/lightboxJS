@@ -7,3 +7,23 @@
 .container img {
 	width: 200px;
 }
+
+/* lightboxJS */
+.lightboxJS-overlay {
+  display: none;
+  background-color: rgba(0,0,0,.8);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.lightboxJS-overlay img {
+  width: 60%;
+}
+
+.lightboxJS-overlay.lightboxJS-overlay-show {
+  display: block;
+}
